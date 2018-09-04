@@ -355,8 +355,6 @@ render:
 			cmp		eax, DWORD [ebp-4]
 			jne		print_board
 				; if both were equal, print the player
-
-	; TODO TODO TODO PRINT PLAYER 
 				
 				push	player_color	
 				call	printf
